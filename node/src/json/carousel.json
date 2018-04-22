@@ -1,0 +1,29 @@
+{
+	"code":1,
+	"data":[
+			{
+				"imgUrl":"http://qmbei.com/data/afficheimg/1476332375490870904.jpg",
+			 	"href":"http://qmbei.com/affiche.php?ad_id=8&uri="
+			},
+			{
+				"imgUrl":"http://qmbei.com/data/afficheimg/1476332471704421280.jpg",
+			 	"href":"http://qmbei.com/affiche.php?ad_id=9&uri="
+			},
+			{
+				"imgUrl":"http://qmbei.com/data/afficheimg/1476332854580611059.jpg",
+			 	"href":"http://qmbei.com/affiche.php?ad_id=10&uri="
+			},
+			{
+				"imgUrl":"http://qmbei.com/data/afficheimg/1476332998123810392.jpg",
+			 	"hrecarousel.jsonf":"http://qmbei.com/affiche.php?ad_id=64&uri=#"
+			},
+			{
+				"imgUrl":"http://qmbei.com/data/afficheimg/1476083885514610682.jpg",
+			 	"href":"http://qmbei.com/affiche.php?ad_id=65&uri="
+			},
+			{
+				"imgUrl":"http://qmbei.com/data/afficheimg/1476083782340304905.jpg",
+			 	"href":"http://qmbei.com/affiche.php?ad_id=66&uri=#"
+			}
+	]
+}

@@ -1,0 +1,158 @@
+.margin {
+  width: 1000px;
+  margin: 0 auto; }
+
+header {
+  height: 51px;
+  padding-top: 22px; }
+  header .logo {
+    float: left;
+    margin: 0 75px 0 51px; }
+  header span {
+    float: left;
+    font: 26px/46px '';
+    color: #666;
+    border-left: 1px solid #eee;
+    padding-left: 16px;
+    margin-top: 4px; }
+  header .focus {
+    float: right;
+    margin-top: 24px;
+    width: 111px;
+    display: flex;
+    justify-content: space-between; }
+    header .focus i {
+      position: relative; }
+      header .focus i .barcode {
+        position: absolute;
+        top: 25px;
+        left: -35px;
+        padding: 10px;
+        border: 1px solid #eee;
+        display: none; }
+    header .focus i:hover .barcode {
+      display: block; }
+
+#main {
+  background: #e31939;
+  margin: 23px 0 30px; }
+  #main .margin {
+    position: relative; }
+    #main .margin .bg {
+      display: block;
+      height: 475px;
+      background: url(../images/l1.gif) left no-repeat; }
+    #main .margin .detail {
+      position: absolute;
+      top: 40px;
+      right: 0;
+      background: #fff;
+      padding: 20px;
+      width: 346px; }
+      #main .margin .detail .title {
+        height: 28px;
+        display: flex;
+        justify-content: space-between; }
+        #main .margin .detail .title h3 {
+          font: 18px/28px '';
+          color: #666; }
+        #main .margin .detail .title a {
+          font: 12px/28px '';
+          color: #e31939; }
+      #main .margin .detail .hint {
+        font: 14px/20px '';
+        color: #e31939; }
+      #main .margin .detail i {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url(../images/detail.gif) no-repeat;
+        vertical-align: middle; }
+      #main .margin .detail input {
+        border: none;
+        outline: none; }
+      #main .margin .detail .public {
+        height: 36px;
+        border: 1px solid #ddd;
+        font: 12px/36px '';
+        color: #666;
+        padding: 0 12px; }
+        #main .margin .detail .public i {
+          background-position: 0 -20px; }
+        #main .margin .detail .public input {
+          width: 80%;
+          height: 90%; }
+      #main .margin .detail .tel i {
+        background-position: 0 -20px; }
+      #main .margin .detail .password {
+        margin: 30px 0; }
+        #main .margin .detail .password i {
+          background-position: 0 -40px; }
+      #main .margin .detail .verifycode {
+        display: flex; }
+        #main .margin .detail .verifycode .fillincode {
+          width: 111px;
+          height: 36px;
+          border: 1px solid #ddd;
+          font: 12px/36px '';
+          color: #666;
+          padding: 0 12px; }
+          #main .margin .detail .verifycode .fillincode input {
+            width: 70%;
+            height: 90%; }
+        #main .margin .detail .verifycode span {
+          font: 16px/36px '';
+          color: #333;
+          margin-left: 20px;
+          cursor: pointer; }
+      #main .margin .detail .tip {
+        display: flex;
+        justify-content: space-between;
+        font: 12px/40px "";
+        color: #666; }
+        #main .margin .detail .tip .saveinfo input {
+          vertical-align: middle; }
+      #main .margin .detail .btn {
+        display: block;
+        font: 12px/35px '';
+        color: #fff;
+        background: #e31939;
+        text-align: center;
+        cursor: pointer;
+        border: none;
+        width: 100%;
+        outline: none; }
+      #main .margin .detail .otherway {
+        margin-top: 20px; }
+        #main .margin .detail .otherway ul {
+          display: flex;
+          justify-content: space-between; }
+          #main .margin .detail .otherway ul li a {
+            font: 12px/22px '';
+            color: #666; }
+            #main .margin .detail .otherway ul li a b {
+              display: inline-block;
+              width: 23px;
+              height: 22px;
+              background: url(../images/l2.gif) no-repeat;
+              vertical-align: middle; }
+          #main .margin .detail .otherway ul li:nth-child(2) b {
+            background-position: 0 -22px; }
+          #main .margin .detail .otherway ul li:nth-child(3) b {
+            background-position: 0 -44px; }
+          #main .margin .detail .otherway ul li:nth-child(4) b {
+            background-position: 0 -66px; }
+
+footer {
+  color: #666;
+  padding: 57px 0 43px;
+  text-align: center;
+  font: 12px/24px ''; }
+  footer a {
+    color: #666; }
+  footer a:hover {
+    color: #e31939; }
+  footer .link span {
+    margin: 0 4px 0 0; }
+
+/*# sourceMappingURL=login.css.map */
